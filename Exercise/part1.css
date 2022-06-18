@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: gray;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float:right;
+    margin-right: 40%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    font-size: 20px;
+    margin:0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 0 20px;
+    color: white;
+    border-bottom: 2px solid white;
+}
